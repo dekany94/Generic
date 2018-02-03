@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace generic
 {
     //2018.01.03.
-    //This Program use a generic method to write out two different list and its falue
+    //This Program use a generic method to write out two different list and its falues
     //keywords: #generic #reflection #ListInitializeWithArray
     class Program
     {
