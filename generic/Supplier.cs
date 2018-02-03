@@ -34,11 +34,11 @@ namespace generic
             return new Supplier[] { s1, s2 };
         }
 
-        public Supplier(String name, Int32 age, String address)
-        {
-            Name = name;
-            Age = age;
-            Address = address;
-        }
+        //public Supplier(String name, Int32 age, String address)
+        //{
+        //    Name = name;
+        //    Age = age;
+        //    Address = address;
+        //}
     }
 }

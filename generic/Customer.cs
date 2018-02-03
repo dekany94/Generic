@@ -35,11 +35,12 @@ namespace generic
             return new Customer[] { c1, c2 };
         }
 
-        public Customer(String name, Int32 age, String address)
-        {
-            Name = name;
-            Age = age;
-            Address = address;
-        }
+        //we don't need this
+        //public Customer(String name, Int32 age, String address)
+        //{
+        //    Name = name;
+        //    Age = age;
+        //    Address = address;
+        //}
     }
 }
