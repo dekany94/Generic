@@ -19,10 +19,11 @@ namespace generic
 
                 Supplier supplier = new Supplier();
                 supplier.supplierList = new List<Supplier>(supplier.FillList());
-
-                WriteList<Customer>(customer.customerList);
+                //"Type inference occurs at compile time before the compiler tries to resolve overloaded method signatures."
+                //thats why you don't need to specify the type
+                WriteList(customer.customerList);
                 Console.WriteLine("-----------------------------");
-                WriteList<Supplier>(supplier.supplierList);
+                WriteList(supplier.supplierList);
             }
             catch (Exception ex)
             {
